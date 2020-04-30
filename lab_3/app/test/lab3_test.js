@@ -10,7 +10,7 @@ var should = chai.should();
 
 chai.use(chaiHttp);
 
-const expectedResponseText = "Hello, World!";
+const expectedResponseText = "Hello, WWWorld!";
 
 describe("API test", function () {
   it("should returns '" + expectedResponseText + "'", (done) => {
